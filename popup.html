@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Avenir" rel="stylesheet">
+
+    <script defer src="app/utils.js"></script>
+
+    <script defer src="app/connect.js"></script>
+    <script defer src="app/chat.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+    <h1>Website Summary</h1>
+    <div id="content">
+        <p id="summary">
+            Generating summary... <br>
+            Page length: <span id="duration"></span> characters <br>
+            Processed chunks: <span id="processed-chunks">0</span><br>
+            Elapsed time: <span id="elapsed-time">0</span> seconds
+        </p>
+    </div>
+
+    <div class="chat-container"></div>
+
+    <input id="chat-input" placeholder="Enter a message to chat">
+
+</body>
+
+</html>

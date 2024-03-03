@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Website Summarizer",
+    "version": "1.0",
+    "description": "Uses Gemini API to summarize webpages",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "server/dist/main.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "512": "icons/icon.png"
+        }
+    },
+    "icons": {
+        "512": "icons/icon.png"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
