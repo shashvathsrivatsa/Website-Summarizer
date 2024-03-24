@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "Uses Gemini API to summarize webpages",
     "permissions": [
-        "tabs",
         "activeTab",
         "scripting"
     ],
